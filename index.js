@@ -1,3 +1,4 @@
+console.log('Started...')
 const Discord = require("discord.js");
 const token = "NDU2MTg1MjA3MDgzNDk5NTIx.DgG6RQ.ydgeCcU_cMA4eLJLwald_k_TdCE";
 let bot = new Discord.Client();
@@ -10,7 +11,7 @@ bot.on("message", function(message){
   // if(message.author.equals(bot.user)){return;}
 
   if(message.content==="hello"){
-    message.channel.sendMessage("Ya3tik 1000 3asba")
+    message.channel.sendMessage("Hello! How are you?")
   }
 });
 bot.login(token);
